@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5a0bd914.css",
+    "main.js": "/static/js/main.dc8f0ab9.js",
+    "static/js/787.3c5db5e7.chunk.js": "/static/js/787.3c5db5e7.chunk.js",
+    "static/media/heroImg.png": "/static/media/heroImg.8f809893274d20280c56.png",
+    "static/media/footerImg.png": "/static/media/footerImg.7467c97d47656e670896.png",
+    "static/media/tietoSkyline.png": "/static/media/tietoSkyline.1743af0a9c0cdfb93159.png",
+    "static/media/bannerImg.png": "/static/media/bannerImg.e750a8d6888d90f141e5.png",
+    "static/media/circle2.png": "/static/media/circle2.a90a2940c65da81b9460.png",
+    "static/media/circle1.png": "/static/media/circle1.ca58058c0fd147c0ff7b.png",
+    "static/media/circle3.png": "/static/media/circle3.cee24d86bf9eab36127d.png",
+    "index.html": "/index.html",
+    "main.5a0bd914.css.map": "/static/css/main.5a0bd914.css.map",
+    "main.dc8f0ab9.js.map": "/static/js/main.dc8f0ab9.js.map",
+    "787.3c5db5e7.chunk.js.map": "/static/js/787.3c5db5e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a0bd914.css",
+    "static/js/main.dc8f0ab9.js"
+  ]
+}
