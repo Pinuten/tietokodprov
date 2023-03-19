@@ -1,13 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
+    sans-serif; */
+  font-family: 'inter', sans-serif;
+  
+    -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+#navigation {
+  background-image: url("assets/bannerImg.png");
+  background-size: 100%;
+}
+
+#navbarText {
+  color: white;
+  /* width: 50%; */
+}
+
+/* .image-wrapper {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.image-header {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+} */
+
+figcaption {
+  position: absolute;
+  bottom: 1rem;
+  margin: 0 2rem;
+  color: white;
+  width: 50%;
+}
+@media screen and (max-width: 768px){
+    figcaption{
+      position: inherit;
+      bottom: inherit;
+      margin: .25rem 0px;
+      font-size: inherit;
+      color:inherit;
+    }
+}
+.img-wrapper {
+  width: 100%;
+  height: auto;
+
+} 
+@media screen and (max-width: 768px){
+  .img-wrapper{
+    height: 100px;
+  }
+}
+
+.article {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+.text-overlay {
+  color: white;
+  text-align: center;
+  width: 50%;
+  padding: 2rem
+}
+
+@media screen and (max-width: 768px) {
+  .text-overlay{
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  .featureImg {
+    width: auto;
+    height: auto;
+  }
+}  */
+
+.featureImg {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .featureImg {
+    float: none;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+  }
+  .featureText {
+    clear: both;
+  }
+}
+#grey-button {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
